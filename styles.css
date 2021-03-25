@@ -1,129 +1,181 @@
 body {
-     font-family: "Overpass", sans-serif;
-     font-size: 16px;
-    }
-
-.topthird {
-     background: url("./images/bg-pattern-intro.svg");
-     background-size: contain;
-     background-color: #FFADB3;
-     color: white
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
 }
 
-
+.topthird {
+  background: url("./images/bg-pattern-intro.svg");
+  background-size: contain;
+  background-image: linear-gradient(to right, #FF8F70, #FF3D54);
+  color: white;
+  width: 100%
+}
 
 .navDiv {
-     display: flex;
-     height: 50px;
-     width: 100%;
-     justify-content: space-between;
-     
+  display: inline-flex;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .navDiv H3 {
-     margin-left: 10px
+  margin-top: 8px;
 }
 
 .buttonDiv {
-   display: flex;
-   justify-content: right
+  display: flex;
+  justify-content: right;
+  margin-top: 8px;
+  margin-right: 3px
+}
+
+.selectthree {
+     display: flex;
+     align-items: center;
+     margin-left: -400px;
 }
 
 select {
-     border: none;
-     background-color: #FFADB3;
+  border: none;
+  background-color: transparent;
      color: white;
 }
 
 .login {
-     height: 50px;
-     padding: 15px 35px 15px 35px;
-     font-size: 15px;
-     border-radius: 25px;
-     font-weight: bolder;
-     cursor: pointer;
-     background-color:#FFADB3;
-     display: flex;
-     justify-content: center;
+  height: 50px;
+  padding: 15px 35px 15px 35px;
+  font-size: 15px;
+  border-radius: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+  /* background-color: #ffadb3; */
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: white;
+  color: white;
 }
 
 .login:hover {
-     color: #FFADB3;
-     background-color: white
+  color: transparent;
+     background-color: white;
 }
 
 .signup {
-     height: 50px;
-     padding: 15px 35px 15px 35px;
-     font-size: 15px;
-     background-color: white;
-     border-color: white;
-     color: #FFADB3;
-     cursor: pointer;
-     font-weight: bolder;
-     display: flex;
-     justify-content: center;
-     border-radius: 25px;
-     text-align: center;
-     margin: auto;
-
+  height: 50px;
+  padding: 15px 35px 15px 35px;
+  font-size: 15px;
+  background-color: white;
+  border-color: white;
+ color: #FF3D54;
+  cursor: pointer;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  text-align: center;
+  margin: auto;
+  border-style: solid;
 
 }
 
 .signup:hover {
-     color: white;
-     background-color: #FFADB3
+  color: white;
+  background-color: #FF3D54
 }
 
 .publishingDiv {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .start {
-          height: 50px;
-          padding: 15px 35px 15px 35px;
-          font-size: 15px;
-          background-color: white;
-          border-color: white;
-          color: #FFADB3;
-          cursor: pointer;
-          font-weight: bolder;
-          display: flex;
-          justify-content: center;
-          border-radius: 25px;
-          text-align: center;
-          margin: auto;
-     
-     
-     }
+  height: 50px;
+  padding: 15px 35px 15px 35px;
+  font-size: 15px;
+  background-color: white;
+  border-color: white;
+  color: #FF8F70;
+  cursor: pointer;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  text-align: center;
+  margin: auto;
+  border-style: solid;
+}
 
-     .start:hover {
-          color: white;
-          background-color: #FFADB3
-     }
+.start:hover {
+  color: white;
+  background-color: #FF8F70
+}
 
-     .learnMore {
-          height: 50px;
-          padding: 15px 35px 15px 35px;
-          font-size: 15px;
-          border-radius: 25px;
-          font-weight: bolder;
-          cursor: pointer;
-          background-color:#FFADB3;
-          display: flex;
-          justify-content: center;
-     }
-     
-     .learnMore:hover {
-          color: #FFADB3;
-          background-color: white
-     }
+.learnMore {
+  height: 50px;
+  color: white;
+  padding: 15px 35px 15px 35px;
+  font-size: 15px;
+  border-radius: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: white;
+}
 
+.learnMore:hover {
+  color: transparent;
+  background-color: white;
+}
 
 .pubButt {
+  display: flex;
+}
+
+.divider {
+  width: 5px;
+  height: auto;
+  display: inline-block;
+}
+
+.second h1 {
+     text-align: center;
+     color: #1F3F5B;
+     font-weight: bolder
+}
+
+
+.blurbs {
      display: flex;
-     justify-content: right
-  }
+    flex-direction: column;
+    width: 500px;
+    margin-left: 100px
+}
+
+.blurbone h3 {
+     color: #1F3F5B;
+     font-weight: bolder
+
+}
+
+.blurbtwo h3 {
+     color: #1F3F5B;
+     font-weight: bolder;
+
+}
+
+.blurbetc {
+     display: inline-flex;
+}
+
+.image {
+     height: 750px;
+     margin-top: -100px;
+     margin-left: 100px
+}
+
