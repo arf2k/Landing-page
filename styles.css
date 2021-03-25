@@ -1,0 +1,15 @@
+.navDiv {
+     display: flex;
+     height: 50px;
+     width: 100%;
+     justify-content: space-between;
+     
+}
+
+.buttonDiv {
+     float: right
+}
+
+.signup {
+
+}
